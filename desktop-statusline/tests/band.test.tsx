@@ -24,7 +24,7 @@ test('desktop draws context and limits; terminal keeps its own status line', asy
   await $.session.start({ cwd: '/home/user/project', source: 'startup' } as never)
 
   const desk = await $.ui.mount({ ...BAND, surface: 'desktop' })
-  for (const text of [/^ 42%$/, /84k\/200k/, /^projects$/, /^5h $/, /^ 89%$/, /2h00m/]) {
+  for (const text of [/^ 42%$/, /84k\/200k/, /^project$/, /^5h $/, /^ 89%$/, /2h00m/]) {
     expect(await desk.find({ type: 'Text', text })).toBeDefined()
   }
   await desk.unmount()

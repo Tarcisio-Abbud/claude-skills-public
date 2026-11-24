@@ -1,6 +1,5 @@
 {
   "name": "second-opinion",
-  "version": "1.0.0",
   "description": "A fresh subagent's verdict on the question the session is in: it sees the question and the evidence, not the session's reasoning. Once, or argued to consensus within a turn budget.",
   "author": {
     "name": "Tarcisio-Abbud"

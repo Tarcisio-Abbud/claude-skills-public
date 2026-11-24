@@ -1,6 +1,6 @@
 ---
 name: second-opinion
-description: A fresh verdict on a question the dispatching session is already deep in. Dispatched through /second-opinion:second-opinion.
+description: A fresh verdict on a question the dispatching session is already deep in. Dispatched only by the /second-opinion:second-opinion skill when the user invokes it; never dispatch it on your own.
 model: fable
 effort: high
 ---

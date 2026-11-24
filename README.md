@@ -12,10 +12,29 @@ No Claude Code:
 /plugin install desktop-statusline@claude-skills-public
 ```
 
-Reinicie o Claude Code depois de instalar. Para atualizar mais tarde:
+Reinicie o Claude Code depois de instalar.
+
+### No app Desktop
+
+Na aba Code, clique no **+** ao lado da caixa de mensagem e depois em **Plugins** /
+**Add plugins**, e adicione o marketplace `Tarcisio-Abbud/claude-skills-public`.
+
+Se preferir, rode no terminal do computador (o Desktop lê as mesmas configurações):
 
 ```text
-/plugin marketplace update claude-skills-public
+claude plugin marketplace add Tarcisio-Abbud/claude-skills-public
+claude plugin install second-opinion@claude-skills-public
+claude plugin install desktop-statusline@claude-skills-public
+```
+
+Funciona em sessões locais; em sessões WSL ou SSH os plugins não carregam.
+
+### Atualizar
+
+```text
+claude plugin marketplace update claude-skills-public
+claude plugin update second-opinion@claude-skills-public
+claude plugin update desktop-statusline@claude-skills-public
 ```
 
 ## Plugins
@@ -40,6 +59,10 @@ esforço alto, então gasta mais que uma resposta comum.
 Para o app Desktop (aba Code): uma faixa acima da caixa de mensagem com a pasta, quanto do
 contexto já foi usado e os limites de 5 horas e semanal, em verde, amarelo ou vermelho. No
 terminal não muda nada.
+
+Requer Claude Code 2.1.286 ou mais novo (testado na 2.1.288). É um *mod*: código que roda dentro
+do Claude Code com as suas permissões, então leia `desktop-statusline/hooks/register.tsx` antes de
+instalar se quiser conferir.
 
 ## Licença
 
