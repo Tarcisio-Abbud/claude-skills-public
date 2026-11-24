@@ -16,10 +16,7 @@ Reinicie o Claude Code depois de instalar.
 
 ### No app Desktop
 
-Na aba Code, clique no **+** ao lado da caixa de mensagem e depois em **Plugins** /
-**Add plugins**, e adicione o marketplace `Tarcisio-Abbud/claude-skills-public`.
-
-Se preferir, rode no terminal do computador (o Desktop lê as mesmas configurações):
+O caminho garantido é o terminal do computador; o Desktop lê as mesmas configurações:
 
 ```text
 claude plugin marketplace add Tarcisio-Abbud/claude-skills-public
@@ -27,7 +24,8 @@ claude plugin install second-opinion@claude-skills-public
 claude plugin install desktop-statusline@claude-skills-public
 ```
 
-Funciona em sessões locais; em sessões WSL ou SSH os plugins não carregam.
+Depois os plugins aparecem no **+** ao lado da caixa de mensagem, em **Plugins**. Funciona em
+sessões locais; em sessões WSL ou SSH os plugins não carregam.
 
 ### Atualizar
 
