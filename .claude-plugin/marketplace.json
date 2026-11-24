@@ -1,0 +1,17 @@
+{
+  "name": "claude-skills-public",
+  "owner": {
+    "name": "Tarcisio-Abbud"
+  },
+  "metadata": {
+    "description": "Public Claude Code skills and plugins by Tarcisio-Abbud."
+  },
+  "plugins": [
+    {
+      "name": "second-opinion",
+      "displayName": "second-opinion — a fresh verdict from a subagent",
+      "source": "./second-opinion",
+      "description": "/second-opinion:second-opinion hands the question the session is deep in to a fresh subagent (Fable, Opus as fallback) that sees only the question and the evidence, not the session's reasoning. Once, or argued to consensus within a turn budget."
+    }
+  ]
+}
