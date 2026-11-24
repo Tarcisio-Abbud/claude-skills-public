@@ -12,6 +12,12 @@
       "displayName": "second-opinion — a fresh verdict from a subagent",
       "source": "./second-opinion",
       "description": "/second-opinion:second-opinion hands the question the session is deep in to a fresh subagent (Fable, Opus as fallback) that sees only the question and the evidence, not the session's reasoning. Once, or argued to consensus within a turn budget."
+    },
+    {
+      "name": "desktop-statusline",
+      "displayName": "desktop-statusline — status band for the desktop app",
+      "source": "./desktop-statusline",
+      "description": "Status band above the desktop Code tab's prompt: folder, context window and 5h/weekly limits."
     }
   ]
 }

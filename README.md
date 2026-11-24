@@ -9,6 +9,7 @@ No Claude Code:
 ```text
 /plugin marketplace add Tarcisio-Abbud/claude-skills-public
 /plugin install second-opinion@claude-skills-public
+/plugin install desktop-statusline@claude-skills-public
 ```
 
 Reinicie o Claude Code depois de instalar. Para atualizar mais tarde:
@@ -33,6 +34,12 @@ próprio veredito e depois ataca a posição da sessão.
 
 Usa o modelo Fable; se a conta não tiver acesso a ele, cai no Opus automaticamente. Roda com
 esforço alto, então gasta mais que uma resposta comum.
+
+### desktop-statusline
+
+Para o app Desktop (aba Code): uma faixa acima da caixa de mensagem com a pasta, quanto do
+contexto já foi usado e os limites de 5 horas e semanal, em verde, amarelo ou vermelho. No
+terminal não muda nada.
 
 ## Licença
 
